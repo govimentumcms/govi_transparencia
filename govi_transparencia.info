@@ -49,4 +49,5 @@ features[ctools][] = path_breadcrumbs:path_breadcrumbs:1
 features[features_api][] = api:2
 features[menu_custom][] = menu-menu-transparencia
 features[path_breadcrumbs][] = transparencia_home
+features[user_permission][] = access site map
 project path = sites/all/modules/features
