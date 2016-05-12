@@ -65,6 +65,201 @@ function govi_transparencia_content_menu_links_defaults() {
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
   );
+  // Exported menu link: menu-menu-transparencia:transparencia/control
+  $menu_links['menu-menu-transparencia:transparencia/control'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control',
+    'router_path' => 'transparencia/control',
+    'link_title' => 'Control',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => 0,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/defensa-judicial
+  $menu_links['menu-menu-transparencia:transparencia/control/defensa-judicial'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/defensa-judicial',
+    'router_path' => 'transparencia/control/defensa-judicial',
+    'link_title' => 'Defensa judicial',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -45,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/entes-control-vigilancia-mecanismos-supervicion
+  $menu_links['menu-menu-transparencia:transparencia/control/entes-control-vigilancia-mecanismos-supervicion'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/entes-control-vigilancia-mecanismos-supervicion',
+    'router_path' => 'transparencia/control/entes-control-vigilancia-mecanismos-supervicion',
+    'link_title' => 'Entes de control, vigilancia y mecanismos de supervición',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/informacion-poblacion-vulnerable
+  $menu_links['menu-menu-transparencia:transparencia/control/informacion-poblacion-vulnerable'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/informacion-poblacion-vulnerable',
+    'router_path' => 'transparencia/control/informacion-poblacion-vulnerable',
+    'link_title' => 'Información para población vulnerable',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/informes-gestion-evaluacion-auditoria
+  $menu_links['menu-menu-transparencia:transparencia/control/informes-gestion-evaluacion-auditoria'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/informes-gestion-evaluacion-auditoria',
+    'router_path' => 'transparencia/control/informes-gestion-evaluacion-auditoria',
+    'link_title' => 'Informes de gestión, evaluación y auditoria',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/planes-mejoramiento
+  $menu_links['menu-menu-transparencia:transparencia/control/planes-mejoramiento'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/planes-mejoramiento',
+    'router_path' => 'transparencia/control/planes-mejoramiento',
+    'link_title' => 'Planes de mejoramiento',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/control/reportes-control-interno
+  $menu_links['menu-menu-transparencia:transparencia/control/reportes-control-interno'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/control/reportes-control-interno',
+    'router_path' => 'transparencia/control/reportes-control-interno',
+    'link_title' => 'Reportes de control interno',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_path' => 'transparencia/control',
+  );
   // Exported menu link: menu-menu-transparencia:transparencia/instrumentos-gestion-informacion-publica
   $menu_links['menu-menu-transparencia:transparencia/instrumentos-gestion-informacion-publica'] = array(
     'menu_name' => 'menu-menu-transparencia',
@@ -292,7 +487,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'menu_name' => 'menu-menu-transparencia',
     'link_path' => 'transparencia/organizacion/directorio-funcionarios',
     'router_path' => 'transparencia/organizacion/directorio-funcionarios',
-    'link_title' => 'Directorio de Funcionarios',
+    'link_title' => 'Directorio de información de servidores públicos, empleados y contratistas',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -311,8 +506,9 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -45,
     'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
   // Exported menu link: menu-menu-transparencia:transparencia/planeacion
   $menu_links['menu-menu-transparencia:transparencia/planeacion'] = array(
@@ -619,6 +815,35 @@ function govi_transparencia_content_menu_links_defaults() {
     'weight' => 0,
     'customized' => 1,
   );
+  // Exported menu link: menu-menu-transparencia_directorio-de-entidades:transparencia/organizacion
+  $menu_links['menu-menu-transparencia_directorio-de-entidades:transparencia/organizacion'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
+    'link_title' => 'Directorio de Entidades',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'fragment' => 'directorio-entidades',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
+  );
   // Exported menu link: menu-menu-transparencia_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos
   $menu_links['menu-menu-transparencia_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos'] = array(
     'menu_name' => 'menu-menu-transparencia',
@@ -646,6 +871,62 @@ function govi_transparencia_content_menu_links_defaults() {
     'weight' => -47,
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
+  );
+  // Exported menu link: menu-menu-transparencia_estructura-orgnica-y-talento-humano:transparencia/organizacion
+  $menu_links['menu-menu-transparencia_estructura-orgnica-y-talento-humano:transparencia/organizacion'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
+    'link_title' => 'Estructura orgánica y talento humano',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -50,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-menu-transparencia_funciones-y-deberes:transparencia/organizacion
+  $menu_links['menu-menu-transparencia_funciones-y-deberes:transparencia/organizacion'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
+    'link_title' => 'Funciones y deberes',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'fragment' => 'funciones-deberes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
   // Exported menu link: menu-menu-transparencia_informacin-de-contratacin:transparencia/contratacion/informacion_contractual
   $menu_links['menu-menu-transparencia_informacin-de-contratacin:transparencia/contratacion/informacion_contractual'] = array(
@@ -729,6 +1010,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
   // Exported menu link: menu-menu-transparencia_organigrama:transparencia/organizacion
   $menu_links['menu-menu-transparencia_organigrama:transparencia/organizacion'] = array(
@@ -748,21 +1030,23 @@ function govi_transparencia_content_menu_links_defaults() {
         'class' => '',
         'style' => '',
       ),
+      'fragment' => 'organigrama',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -46,
     'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
-  // Exported menu link: menu-menu-transparencia_organizacin:transparencia/organizacion
-  $menu_links['menu-menu-transparencia_organizacin:transparencia/organizacion'] = array(
+  // Exported menu link: menu-menu-transparencia_procesos-y-procedimientos:transparencia/organizacion
+  $menu_links['menu-menu-transparencia_procesos-y-procedimientos:transparencia/organizacion'] = array(
     'menu_name' => 'menu-menu-transparencia',
     'link_path' => 'transparencia/organizacion',
     'router_path' => 'transparencia/organizacion',
-    'link_title' => 'Organización',
+    'link_title' => 'Procesos y procedimientos',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -775,14 +1059,16 @@ function govi_transparencia_content_menu_links_defaults() {
         'class' => '',
         'style' => '',
       ),
+      'fragment' => 'procesos-procedimientos',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -50,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
     'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
   // Exported menu link: menu-menu-transparencia_visin:transparencia/organizacion
   $menu_links['menu-menu-transparencia_visin:transparencia/organizacion'] = array(
@@ -810,18 +1096,27 @@ function govi_transparencia_content_menu_links_defaults() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
+    'parent_path' => 'transparencia/organizacion',
   );
   // Translatables
   // Included for use with string extractors like potx.
   t('Contratación');
-  t('Directorio de Funcionarios');
+  t('Control');
+  t('Defensa judicial');
+  t('Directorio de Entidades');
+  t('Directorio de información de servidores públicos, empleados y contratistas');
   t('Ejecución de contratos');
+  t('Entes de control, vigilancia y mecanismos de supervición');
+  t('Estructura orgánica y talento humano');
+  t('Funciones y deberes');
   t('Gestión documental');
   t('Información de contratación');
+  t('Información para población vulnerable');
   t('Informe de PQRS y denuncias');
   t('Informes de ejecución presupuestal');
   t('Informes de empalme');
   t('Informes de estados financieros');
+  t('Informes de gestión, evaluación y auditoria');
   t('Instrumentos de gestión de información pública');
   t('Lineamientos');
   t('Manual de Contrataciones');
@@ -830,15 +1125,17 @@ function govi_transparencia_content_menu_links_defaults() {
   t('Misión');
   t('Normatividad');
   t('Organigrama');
-  t('Organización');
   t('Participación ciudadana');
   t('Plan anual de adquisiciones');
   t('Planeación');
   t('Planes');
+  t('Planes de mejoramiento');
   t('Presupuesto');
   t('Presupuesto General');
+  t('Procesos y procedimientos');
   t('Programas y Proyectos');
   t('Relacionados con la información');
+  t('Reportes de control interno');
   t('Trámites y Servicios');
   t('Visión');
 
