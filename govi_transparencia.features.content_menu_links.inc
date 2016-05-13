@@ -34,7 +34,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => 6,
+    'weight' => -37,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/contratacion/plan-anual-adquisiciones
@@ -89,7 +89,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => 7,
+    'weight' => -36,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/control/defensa-judicial
@@ -284,7 +284,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => 8,
+    'weight' => -35,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
@@ -395,7 +395,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => 3,
+    'weight' => -40,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/marco-legal/lineamientos
@@ -534,7 +534,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => 4,
+    'weight' => -39,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/planeacion/informes-empalme
@@ -701,7 +701,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => 5,
+    'weight' => -38,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/presupuesto/ejecucion-presupuestal
@@ -812,7 +812,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 9,
+    'weight' => -34,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia_directorio-de-agremiaciones-asociaciones-y-otros-grupos-de-inters:transparencia/organizacion
@@ -925,7 +925,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => 2,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia_funciones-y-deberes:transparencia/organizacion
