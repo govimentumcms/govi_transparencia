@@ -10,6 +10,62 @@
 function govi_transparencia_content_menu_links_defaults() {
   $menu_links = array();
 
+  // Exported menu link: menu-menu-transparencia:transparencia/atencion-ciudadano/sede-principal
+  $menu_links['menu-menu-transparencia:transparencia/atencion-ciudadano/sede-principal'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/atencion-ciudadano/sede-principal',
+    'router_path' => 'transparencia/atencion-ciudadano/sede-principal',
+    'link_title' => 'Atención al Ciudadano',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_path' => '<front>',
+  );
+  // Exported menu link: menu-menu-transparencia:transparencia/atencion-ciudadano/sedes
+  $menu_links['menu-menu-transparencia:transparencia/atencion-ciudadano/sedes'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => 'transparencia/atencion-ciudadano/sedes',
+    'router_path' => 'transparencia/atencion-ciudadano/sedes',
+    'link_title' => 'Localización fisica, sucursales o regionales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 1,
+    'customized' => 1,
+    'parent_path' => '<front>',
+  );
   // Exported menu link: menu-menu-transparencia:transparencia/contratacion
   $menu_links['menu-menu-transparencia:transparencia/contratacion'] = array(
     'menu_name' => 'menu-menu-transparencia',
@@ -34,7 +90,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -37,
+    'weight' => 5,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/contratacion/plan-anual-adquisiciones
@@ -61,7 +117,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
   );
@@ -89,7 +145,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -36,
+    'weight' => 6,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/control/defensa-judicial
@@ -116,7 +172,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => 5,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -144,7 +200,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => 3,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -172,7 +228,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => 4,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -200,7 +256,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -228,7 +284,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -256,7 +312,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/control',
   );
@@ -284,7 +340,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => -35,
+    'weight' => 7,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
@@ -311,7 +367,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/instrumentos-gestion-informacion-publica',
   );
@@ -339,7 +395,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/instrumentos-gestion-informacion-publica',
   );
@@ -367,7 +423,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/instrumentos-gestion-informacion-publica',
   );
@@ -395,7 +451,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -40,
+    'weight' => 2,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/marco-legal/lineamientos
@@ -422,7 +478,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/marco-legal',
   );
@@ -450,7 +506,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/marco-legal',
   );
@@ -478,7 +534,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/marco-legal',
   );
@@ -506,7 +562,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => 5,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -534,7 +590,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,
-    'weight' => -39,
+    'weight' => 3,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/planeacion/informes-empalme
@@ -561,7 +617,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => 4,
     'customized' => 1,
     'parent_path' => 'transparencia/planeacion',
   );
@@ -589,7 +645,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/planeacion',
   );
@@ -617,7 +673,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => 3,
     'customized' => 1,
     'parent_path' => 'transparencia/planeacion',
   );
@@ -645,7 +701,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/planeacion',
   );
@@ -673,7 +729,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/planeacion',
   );
@@ -701,7 +757,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -38,
+    'weight' => 4,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia:transparencia/presupuesto/ejecucion-presupuestal
@@ -728,7 +784,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/presupuesto',
   );
@@ -756,7 +812,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/presupuesto',
   );
@@ -784,7 +840,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/presupuesto',
   );
@@ -812,7 +868,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -34,
+    'weight' => 8,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia_directorio-de-agremiaciones-asociaciones-y-otros-grupos-de-inters:transparencia/organizacion
@@ -840,7 +896,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -43,
+    'weight' => 7,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -869,7 +925,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => 6,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -897,7 +953,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => 3,
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
   );
@@ -925,7 +981,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -50,
+    'weight' => 1,
     'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia_funciones-y-deberes:transparencia/organizacion
@@ -953,7 +1009,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -981,7 +1037,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => 2,
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
   );
@@ -1009,9 +1065,36 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/contratacion',
+  );
+  // Exported menu link: menu-menu-transparencia_mecanismos-de-contacto:<front>
+  $menu_links['menu-menu-transparencia_mecanismos-de-contacto:<front>'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mecanismos de contacto',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
   );
   // Exported menu link: menu-menu-transparencia_misin:transparencia/organizacion
   $menu_links['menu-menu-transparencia_misin:transparencia/organizacion'] = array(
@@ -1037,9 +1120,37 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => 0,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
+  );
+  // Exported menu link: menu-menu-transparencia_notifcaciones-judiciales:<front>
+  $menu_links['menu-menu-transparencia_notifcaciones-judiciales:<front>'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Notifcaciones judiciales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 2,
+    'customized' => 1,
+    'parent_path' => '<front>',
   );
   // Exported menu link: menu-menu-transparencia_ofertas-de-empleo:transparencia/organizacion
   $menu_links['menu-menu-transparencia_ofertas-de-empleo:transparencia/organizacion'] = array(
@@ -1066,7 +1177,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => 8,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -1095,9 +1206,37 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => 4,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
+  );
+  // Exported menu link: menu-menu-transparencia_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-personales:<front>
+  $menu_links['menu-menu-transparencia_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-personales:<front>'] = array(
+    'menu_name' => 'menu-menu-transparencia',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Políticas de seguridad de la información y protección de datos personales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 3,
+    'customized' => 1,
+    'parent_path' => '<front>',
   );
   // Exported menu link: menu-menu-transparencia_procesos-y-procedimientos:transparencia/organizacion
   $menu_links['menu-menu-transparencia_procesos-y-procedimientos:transparencia/organizacion'] = array(
@@ -1124,7 +1263,7 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => 3,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
@@ -1152,12 +1291,13 @@ function govi_transparencia_content_menu_links_defaults() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => 1,
     'customized' => 1,
     'parent_path' => 'transparencia/organizacion',
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('Atención al Ciudadano');
   t('Contratación');
   t('Control');
   t('Defensa judicial');
@@ -1178,11 +1318,14 @@ function govi_transparencia_content_menu_links_defaults() {
   t('Informes de gestión, evaluación y auditoria');
   t('Instrumentos de gestión de información pública');
   t('Lineamientos');
+  t('Localización fisica, sucursales o regionales');
   t('Manual de Contrataciones');
   t('Marco Legal');
+  t('Mecanismos de contacto');
   t('Metas, objetivos e indicadores');
   t('Misión');
   t('Normatividad');
+  t('Notifcaciones judiciales');
   t('Ofertas de empleo');
   t('Organigrama');
   t('Participación ciudadana');
@@ -1190,6 +1333,7 @@ function govi_transparencia_content_menu_links_defaults() {
   t('Planeación');
   t('Planes');
   t('Planes de mejoramiento');
+  t('Políticas de seguridad de la información y protección de datos personales');
   t('Presupuesto');
   t('Presupuesto General');
   t('Procesos y procedimientos');
